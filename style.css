@@ -1,0 +1,49 @@
+.banner {
+    background-color: black;
+    color:red;
+    height: 200px;
+    width: 600px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Use align - content : flex-start*/
+.container{
+    background-color: aquamarine;
+    height: 600px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.one{
+    background-color: orangered;
+    font-weight: 25px;
+    height: 60px;
+    width: 60px;
+    flex: 2 2 60px;
+}
+.two{
+    background-color: rgb(9, 215, 242);
+    font-weight: 25px;
+    height: 60px;
+    width: 60px;
+    flex: 2 2 60px;
+}
+.three{
+    background-color: moccasin;
+    font-weight: 25px;
+    height: 60px;
+    width: 60px;
+    flex: 2 2 60px;
+}
+.four{
+    background-color: green;
+    font-weight: 25px;
+    height: 60px;
+    width: 60px;
+    flex: 2 2 60px;
+}
